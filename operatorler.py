@@ -40,6 +40,6 @@ print(len(baslik)) #lenght
 
 
 
-print("Yarenn")
+
 
 
