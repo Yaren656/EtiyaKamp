@@ -1,18 +1,18 @@
-print ("******---******")
+# print ("******---******")
 
-salary = int(input("Lütfen güncel maaşınızı giriniz : "))
-hike = int(input("Lütfen maaşınıza uygulanacak zammı yüzdelik bazında giriniz : "))
+# salary = int(input("Lütfen güncel maaşınızı giriniz : "))
+# hike = int(input("Lütfen maaşınıza uygulanacak zammı yüzdelik bazında giriniz : "))
 
-newSalary = salary + (salary * (hike/100))
+# newSalary = salary + (salary * (hike/100))
 
-print(f"Maaşınızın zamlı hali : {newSalary}")
+# print(f"Maaşınızın zamlı hali : {newSalary}")
 
 
-print ("******---******")
+# print ("******---******")
 
 
 num = int(input("Lütfen 1'den büyük bir sayı giriniz : "))
-x = 0
+x = False
 for i in range(2, num):
     #print(f"Num değeri : {num}")
     if num % i == 0: #örn: 10 % 2 = 0, if devam eder, x = 1 oldu, diğer if'e geldi else çalıştı.
@@ -20,7 +20,7 @@ for i in range(2, num):
         x = 1
         break
 
-if x == 0:
+if x == False:
     print("Girilen sayı asal sayıdır.")
 else:
     print("Girilen sayı asal değildir.")
