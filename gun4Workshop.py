@@ -1,14 +1,14 @@
-# print ("******---******")
+print ("******---******")
 
-# salary = int(input("Lütfen güncel maaşınızı giriniz : "))
-# hike = int(input("Lütfen maaşınıza uygulanacak zammı yüzdelik bazında giriniz : "))
+salary = int(input("Lütfen güncel maaşınızı giriniz : "))
+hike = int(input("Lütfen maaşınıza uygulanacak zammı yüzdelik bazında giriniz : "))
 
-# newSalary = salary + (salary * (hike/100))
+newSalary = salary + (salary * (hike/100))
 
-# print(f"Maaşınızın zamlı hali : {newSalary}")
+print(f"Maaşınızın zamlı hali : {newSalary}")
 
 
-# print ("******---******")
+print ("******---******")
 
 
 num = int(input("Lütfen 1'den büyük bir sayı giriniz : "))
