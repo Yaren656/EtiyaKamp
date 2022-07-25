@@ -15,8 +15,8 @@ num = int(input("Lütfen 1'den büyük bir sayı giriniz : "))
 x = 0
 for i in range(2, num):
     #print(f"Num değeri : {num}")
-    if num % i == 0:
-        i += 1
+    if num % i == 0: #örn: 10 % 2 = 0, if devam eder, x = 1 oldu, diğer if'e geldi else çalıştı.
+        i += 1       #örn: 7 % 2 =! 0 if break oldu, diğer if'e geldi, x == 0 kaldı ilk koşul çalıştı.
         x = 1
         break
 
@@ -24,4 +24,7 @@ if x == 0:
     print("Girilen sayı asal sayıdır.")
 else:
     print("Girilen sayı asal değildir.")
+
+
+
 
